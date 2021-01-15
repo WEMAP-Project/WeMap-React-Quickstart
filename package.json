@@ -1,5 +1,5 @@
 {
-    "name": "WeMapReact",
+    "name": "WeMapJsSDK-React",
     "version": "0.0.1",
     "dependencies": {
         "react": "^16.9.0",

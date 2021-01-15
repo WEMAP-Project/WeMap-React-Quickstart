@@ -22,7 +22,7 @@ class Application extends React.Component {
     }
 
     componentDidMount() {
-        this.loadScript('https://wemap.asia/assets/js/wemap-gl.js')
+        this.loadScript('https://wemap-project.github.io/WeMap-Web-SDK-Release/assets/js/wemap-gl.js')
             .then(() => {
                 console.log('Script loaded!');
                 const map = new window.wemapgl.WeMap({
